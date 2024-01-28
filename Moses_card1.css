@@ -1,0 +1,357 @@
+
+/* Navbar Styles */
+.navbar-brand{
+    position: relative;
+    left: 40px;
+    top: 6px;
+}
+
+.search{
+    width: 120rem;
+    padding-top: 40px;
+    margin-left: 30px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+.search1{
+    position: relative;
+    left: 80px;
+    top: 25px;
+
+}
+
+.btn:hover{
+    border: solid red 1px;
+}
+.conta{
+    /* background-color: black; */
+    padding: 10px;
+    width: 350px;
+    color: white;
+    position: relative;
+    right: 150px;
+    top: 25px;
+}
+.conta a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.conta:hover{
+    background-color: red;
+}
+.navbar-text{
+    position: relative!important;
+    top: 1px!important;
+    right: 100px;
+}
+
+/* Second Navbar Styles here */
+.second{
+    background-color: rgba(166, 177, 177, 0.553)!important;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+.second a{
+    color: black;
+    
+}
+.second a:hover{
+    color: red;
+
+}
+.second ul{
+    margin-left: 120px;
+}
+
+/* Image section */
+.imag{
+    width: 100%;
+    margin: auto;
+}
+
+/* here are the design for card section */
+
+.containerr{
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+.containerflex{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.arive{
+    margin: auto!important;
+    font-size: 30px;
+}
+.card{
+    font-size: smaller;
+    height: 25rem;
+    width: 14rem;
+}
+.card:hover{
+    /* height: 26rem;
+    width: 14.2rem; */
+    transform: scale(1.1);
+    box-shadow: 1px 1px 3px 3px lightgrey;
+}
+.pad{
+    margin-top: 0.3rem;
+}
+.cardf{
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding-bottom: 5px!important;
+    
+
+}
+.produc{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.same{
+    background-color: gainsboro;
+    padding: 5px;
+    margin: 3px;
+}
+.same.fa-cart-shopping{
+    color: white;
+    background-color: red;
+    border: solid black 1px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+        
+.card-groupf{
+    width: 70rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.card-groupf1{
+    width: 70rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.card-footerr{
+    margin-bottom: 2px;
+}
+.orange{
+    background-color: #fe6500;
+}
+.purple{
+    background-color: #6346cf;
+}
+/* Here's the dwsign for the footer */
+
+
+*{
+    list-style-type: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-footer{
+    /* background: #242931; */
+    margin-top: auto;
+    /* width: 100%; */
+}
+
+.page-container{
+    text-align: left;
+    color: #6e7178;
+    padding: 0 12px;
+ background: #0a0f16f3;
+ margin-top: 150px;
+ 
+}
+
+.content{
+    padding: 0;
+    /* background: #101824 */
+    margin: 10px 10px;
+    width: auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+
+.footer-contacts{
+padding-top: 20px;
+position: relative;
+}
+
+/* .col-md-6{
+width: 50%;
+} */
+
+.page-footer div[data-role=title]{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+.page-footer .h4{
+    margin-top: 0;
+    font-size: 18px;
+}
+.h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+div{
+    display: block;
+}
+.col-md-3{
+  position: absolute;
+  top: 10px;
+  left: 700px;
+}
+
+.block{
+    margin-bottom: 25px;
+  
+}
+
+.col-lg-6{
+    float: left;
+    
+}
+.argento-grid{
+margin-left: -6px;
+margin-right: -6px
+}
+.content div[data-role=content]{
+    font-weight: 700;
+    /* color: red; */
+}
+
+.block::before{
+    content: '';
+    display: table;
+}
+
+.block-content{
+    /* float: left; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.block::after{
+    content: '';
+    display: table;
+}
+
+.col-lg-6{
+  width: 50%;
+
+}
+
+.block-icon{
+    float: left;
+    display: block;
+    clear: both;
+}
+.h4{
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2.2rem;
+}
+
+.col-md-6{
+    float: left;
+
+}
+.page-container .content::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.argento-grid::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.page-footer .footer-content{
+    color: #fff;
+    border: 0;
+    padding: 40px 10px;
+    background: #262c34;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-content .link li{
+    font-size: 14px;
+    margin: 0 0 8px;
+    padding-left: 0;
+}
+
+.footer-content .link a{
+    color: #6e7178;
+    text-decoration: none;
+    display: inline;
+    font-weight: 700;
+}
+.footer-content .link a:hover{
+  border-bottom: 1px solid #6e7178;
+}
+/* payment section */
+.footer-button{
+text-align: center;
+background: #fff;
+color: #232337;
+width: 100%;
+}
+.footer-payment{
+    padding: 20px;
+    border-bottom: 1px solid #f1f3f6;
+}
+.contents{
+    padding: 20px 10px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+   
+}
+
+.copyright{
+    color: inherit;
+    display: inline;
+    padding: 0;
+    text-align: inherit;
+}
+.footer-lnks{
+    float: none;
+    padding-bottom: 10px;
+}
+.nav-item{
+    border-right: 1px solid #d9dbdf;
+    margin: 0;
+    padding: 0 10px;
+    display: inline-block;
+  
+}
+
+.footer-button a{
+    color: #232337;
+    text-decoration: none;
+}
+.footer-button a:hover{
+    color: #232337;
+    border-bottom: 1px solid #232337;
+}
+
+
+
